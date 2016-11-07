@@ -2,3 +2,6 @@ debug: true
 spring:
   application:
     name: main
+  sleuth:
+    sampler:
+      percentage: 1.0
